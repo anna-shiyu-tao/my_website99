@@ -37,19 +37,19 @@ disqusShortname = ""
 
   # Navigation Section
   [params.navigation]
-    title = "Anna Tao"
+    title = "My website"
     subtitle = "MFA2021 @ LBS"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
 
-    [[params.navigation.links]]
-      name = "Home"
-      url = "#"
+#    [[params.navigation.links]]
+#      name = "Home"
+#      url = "#"
 
-    [[params.navigation.links]]
-      name = "Blogs"
-      url = "blogs"
+#    [[params.navigation.links]]
+#      name = "Blogs"
+#      url = "blogs"
 
 #    [[params.navigation.links]]
 #      name = "Generic Blog"
@@ -69,7 +69,7 @@ disqusShortname = ""
     # Button Style 1
     [[params.navigation.button1]]
       name = "My projects"
-      url = "blogs"
+      url = "project"
 
     # Button Style 2
 #    [[params.navigation.button2]]
@@ -93,39 +93,39 @@ disqusShortname = ""
     
     [[params.tiles.showcase]]
       title = "About me"
-      subtitle = "London Business School - MFA2021"
-      image = "pic07.jpg"
-      url = "blogs/blog5"
+      subtitle = "A student from London Business School"
+      image = "pic05.png"
+      url = "project/project5"
 
     [[params.tiles.showcase]]
-      title = "Tempus"
-      subtitle = "Feugiat Amet Tempus"
-      image = "pic02.jpg"
-      url = "blogs/tempus"
-
-    [[params.tiles.showcase]]
-      title = "Magna"
-      subtitle = "Lorem Etiam Nullam"
-      image = "pic03.jpg"
-      url = "blogs/magna"
-
-    [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
-      image = "pic04.jpg"
-      url = "blogs/ipsum"
-
-    [[params.tiles.showcase]]
-      title = "Consequat"
-      subtitle = "Ipsum Dolor Sit Amet"
-      image = "pic05.jpg"
-      url = "blogs/ipsum"
-
-    [[params.tiles.showcase]]
-      title = "Etiam"
-      subtitle = "Feugiat Amet Tempus"
+      title = "Financial stock returns"
+      subtitle = "Let us see how much we can gain from stock market"
       image = "pic06.jpg"
-      url = "blogs/ipsum"
+      url = "project/project6"
+
+    [[params.tiles.showcase]]
+      title = "Capital Asset Pricing Model"
+      subtitle = "The relationship between S&P500 with individual stocks"
+      image = "pic07.png"
+      url = "project/project7"
+
+    [[params.tiles.showcase]]
+      title = "Salary for female and male in Omega Group"
+      subtitle = "Does gender really make a difference"
+      image = "pic08.png"
+      url = "project/project8"
+
+#    [[params.tiles.showcase]]
+#      title = "Consequat"
+#      subtitle = "Ipsum Dolor Sit Amet"
+#      image = "pic05.jpg"
+#      url = "blogs/ipsum"
+
+#    [[params.tiles.showcase]]
+#      title = "Etiam"
+#      subtitle = "Feugiat Amet Tempus"
+#      image = "pic06.jpg"
+#      url = "blogs/ipsum"
     # You can make more showcases by copy and pasting the code above
 
   [params.blog]
