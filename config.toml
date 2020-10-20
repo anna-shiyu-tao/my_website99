@@ -51,13 +51,13 @@ disqusShortname = ""
       name = "Blogs"
       url = "blogs"
 
-    [[params.navigation.links]]
-      name = "Generic Blog"
-      url = "blogs/ipsum"
+#    [[params.navigation.links]]
+#      name = "Generic Blog"
+#      url = "blogs/ipsum"
 
-    [[params.navigation.links]]
-      name = "Elements"
-      url = "elements.html"
+#    [[params.navigation.links]]
+#      name = "Elements"
+#      url = "elements.html"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -92,9 +92,9 @@ disqusShortname = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "Aliquam"
-      subtitle = "Ipsum Dolor Sit Amet"
-      image = "pic01.jpg"
+      title = "About me"
+      subtitle = "London Business School - MFA2021"
+      image = "pic07.jpg"
       url = "blogs/aliquam"
 
     [[params.tiles.showcase]]
