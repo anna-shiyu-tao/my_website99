@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "http://anna-tao-portfolio.netlify.app/"
 languageCode = "en-us"
-title = "Portfolio website for Anna Shiyu Tao"
+title = "Portfolio website for Anna"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
@@ -37,8 +37,8 @@ disqusShortname = ""
 
   # Navigation Section
   [params.navigation]
-    title = "Portfolio website"
-    subtitle = "My projects"
+    title = "Anna Tao"
+    subtitle = "MFA2021 @ LBS"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
@@ -68,22 +68,22 @@ disqusShortname = ""
 
     # Button Style 1
     [[params.navigation.button1]]
-      name = "Get Started"
+      name = "My projects"
       url = "blogs"
 
     # Button Style 2
-    [[params.navigation.button2]]
-      name = "Log In"
-      url = "#"
+#    [[params.navigation.button2]]
+#      name = "Log In"
+#      url = "#"
 
 
   # Banner section
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Welcome to Anna's personal website"
-    subtitle = "I always believe"
-    buttonText = "Want to know more about me? Get Started"
+    title = "Welcome to Anna's portfolio website"
+    subtitle = "CREATION, IMAGINATION AND ACTION"
+    buttonText = "Get Started"
 
 
   # Tiles Section
@@ -136,16 +136,16 @@ disqusShortname = ""
     # To add more blogs just copy and paste the code.
 
   # Section Type Two
-  [params.two]
-    enable = true
-    title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
-    buttonText = "Get Started"
-    url = "blogs"
+#  [params.two]
+#    enable = true
+#    title = "Massa libero"
+#    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
+#    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
+#    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
+#    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
+#    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
+#    buttonText = "Get Started"
+#    url = "blogs"
 
 
   # Contact section
@@ -165,7 +165,7 @@ disqusShortname = ""
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    # formEmail = "example@domain.com"
+    formEmail = "taoshiyuanna@gmail.com"
 
     # Contact Section
     # You can add multiple emails, phone numbers, or addresses
@@ -174,9 +174,9 @@ disqusShortname = ""
     title = "Email"
     email = "taoshiyuanna@gmail.com"
 
-    [[params.contact.phone]]
-    title = "Phone"
-    phone = "+44 (0)20 7000 7000"
+#    [[params.contact.phone]]
+#    title = "Phone"
+#    phone = "+852 **** ****"
 
     [[params.contact.address]]
     title = "Address"
@@ -190,29 +190,29 @@ disqusShortname = ""
     copyright = "London Business School"
 
     # Uses font awesome icons
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      url= "https://www.twitter.com"
-      label = "Twitter"
+#    [[params.footer.social]]
+#      icon = "fa-twitter"
+#      url= "https://www.twitter.com"
+#      label = "Twitter"
 
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      url= "https://www.facebook.com"
-      label = "Facebook"
+#    [[params.footer.social]]
+#      icon = "fa-facebook"
+#      url= "https://www.facebook.com"
+#      label = "Facebook"
 
     [[params.footer.social]]
       icon = "fa-instagram"
-      url= "https://www.instagram.com"
+      url= "https://www.instagram.com/annatao_t/"
       label = "Instagram"
     
     [[params.footer.social]]
       icon = "fa-github"
-      url= "https://www.github.com"
+      url= "https://github.com/anna-shiyu-tao/"
       label = "GitHub"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      url= "https://www.linkedin.com"
+      url= "https://www.linkedin.com/in/anna-shiyu-tao/"
       label = "LinkedIn"
 
     [[params.footer.quicklinks]]
