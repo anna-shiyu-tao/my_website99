@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "http://anna-tao-portfolio.netlify.app/"
+baseURL = "https://anna-tao-portfolio.netlify.app/"
 languageCode = "en-us"
 title = "Portfolio website for Anna"
 theme = "forty"
@@ -95,7 +95,7 @@ disqusShortname = ""
       title = "About me"
       subtitle = "London Business School - MFA2021"
       image = "pic07.jpg"
-      url = "blogs/aliquam"
+      url = "blogs/blog5"
 
     [[params.tiles.showcase]]
       title = "Tempus"
